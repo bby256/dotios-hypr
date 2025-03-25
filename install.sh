@@ -34,6 +34,10 @@ cp -r $dir/dots/kitty $conf/
 cp -r $dir/dots/rofi $conf/
 cp -r $dir/dots/swaync $conf/
 cp -r $dir/dots/waybar $conf/
+cp $dir/wall.jpg $conf/hypr/
+swww-daemon
+swww img $conf/hypr/wall.jpg
+pkill swww
 
 echo ">Installation complete!"
 echo ">Quitting hyprland in 10 seconds so changes properly take effect (CTRL+c to cancel)..."
