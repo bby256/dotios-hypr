@@ -1,6 +1,8 @@
 # dotios-hypr
 Hyprland decent dotfiles
 
+INFO: You can use nwg-displays to configure your display, its automatically installed by the script.
+
 FOR ARCH LINUX: Install with;
 ```bash
 git clone https://github.com/bby256/dotios-hypr.git ~/dotios-hypr; ~/dotios-hypr/install.sh
