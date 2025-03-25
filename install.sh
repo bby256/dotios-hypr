@@ -11,6 +11,7 @@ if ! command -v yay &>/dev/null; then
 fi
 
 yay -S --needed waybar pavucontrol hyprshot hyprshot-gui kitty thunar rofi-wayland hyprland imagemagick ttf-arimo-nerd mpv swaync arc-gtk-theme arc-icon-theme gtk3 nwg-look polkit-gnome swww nwg-displays emote
+yay -S --needed wlogout
 
 dir="$HOME/dotios-hypr"
 conf="$HOME/.config"
